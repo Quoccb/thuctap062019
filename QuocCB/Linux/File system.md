@@ -34,14 +34,4 @@ containing all underlying directories and files, is also called the root directo
 |/usr|Programs, libraries, documentation etc. for all user-related programs.|
 |/var|Storage for all variable files and temporary files created by users, such as log files, the mail queue, the print spooler area, space for temporary storage of files downloaded from the Internet, or to keep an image of a CD before burning it.|
 
-##### The most important files and directories
 
-**1. The kernel.**
-
-The kernel is the heart of the system. It manages the communication between the underlying hardware and the
-peripherals. The kernel also makes sure that processes and daemons (server processes) are started and stopped
-at the exact right times. The kernel has a lot of other important tasks, so many that there is a special
-kernel-development mailing list on this subject only, where huge amounts of information are shared. It would
-lead us too far to discuss the kernel in detail. For now it suffices to know that the kernel is the most important file on the system.
-
-**

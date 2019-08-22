@@ -15,6 +15,8 @@
 |man command|read man pages on command|
 |info command|read Info pages on command|
 |apropos string | search the whatis database for strings|
-
+|head|Read the first few lines of any text|
+|tail|Read the last ten lines of a file|
+|less|Display file contents one page at a time |
 
 
