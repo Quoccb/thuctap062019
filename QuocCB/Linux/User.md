@@ -1,4 +1,8 @@
-There are three basic types of Linux user accounts: administrative (root), regular, and service.
+### User
+There are three basic types of Linux user accounts: 
+- administrative (root)<br>
+- regular<br>
+- and service.
 
 The Linux administrative root account is automatically created when you install Linux, and it has administrative privileges for all services on Linux Operating System. The root account is also known as super user.
 
@@ -12,5 +16,5 @@ Services such as Apache, Squid, mail, games, and printing have their own individ
 
 Each user on a Red Hat Enterprise Linux system is assigned a unique user identification number, also known as a UID. UIDs below 500 are reserved for system users such as the root user and service users.
 
-A user group is a group of one or more users. A user can be a member of more than one group. In Red Hat Enterprise Linux, when a user is added, a private user group (primary group) is created—meaning that a user group of the same name is created and that the new user is the sole user in that group.
+A user group is a group of one or more users. A user can be a member of more than one group. In Red Hat Enterprise Linux, when a user is added, a private user group (primary group) is createdâ€”meaning that a user group of the same name is created and that the new user is the sole user in that group.
 
