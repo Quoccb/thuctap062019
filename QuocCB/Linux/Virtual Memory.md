@@ -1,3 +1,5 @@
+### Virtual memory
+
 Virtual memory was developed at a time when physical memory -- the installed RAM -- was expensive. Computers have a finite amount of RAM, so memory can run out, especially when multiple programs run at the same time. A system using virtual memory uses a section of the hard drive to emulate RAM. With virtual memory, a system can load larger programs or multiple programs running at the same time, allowing each one to operate as if it has infinite memory and without having to purchase more RAM.
 
 While copying virtual memory into physical memory, the OS divides memory into pagefiles or swap files with a fixed number of addresses. Each page is stored on a disk and when the page is needed, the OS copies it from the disk to main memory and translates the virtual addresses into real addresses.
@@ -7,7 +9,7 @@ Before virtual memory was developed, computers had RAM and secondary memory. Ear
 
 In those early days, programmers used a process called overlaying to run programs that were larger than available memory. Parts of a program that weren't continually in use were set up as overlays that, when needed, would overwrite the existing overlay in memory. It required extensive programming to make overlaying work, and that was a key impetus for the development of automated virtual memory.
 
-German physicist Fritz-Rudolf Güntsch is credited with developing the concept of virtual memory in 1956 as part of his doctoral work. In it he described a computer that used hardware to automatically move blocks of data between primary and secondary memory to avoid running out of main memory. This formed the basis for paging, a process in which memory is divided into sections and transferred between RAM and a hard drive to free up space in RAM. Paging began to show up in commercial computers in the early 1960s.
+German physicist Fritz-Rudolf GÃ¼ntsch is credited with developing the concept of virtual memory in 1956 as part of his doctoral work. In it he described a computer that used hardware to automatically move blocks of data between primary and secondary memory to avoid running out of main memory. This formed the basis for paging, a process in which memory is divided into sections and transferred between RAM and a hard drive to free up space in RAM. Paging began to show up in commercial computers in the early 1960s.
 
 In 1969, IBM researchers demonstrated that what was by then called a virtual memory overlay system worked better than the earlier manual systems. Mainframes and minicomputers in the 1970s generally used virtual memory. Virtual memory technology was not included in early personal computers because developers thought running out of memory would not be a problem in those machines. That assumption proved incorrect. Intel introduced virtual memory in the protected mode of the 80286 processor in 1982 and paging support when the 80386 came out in 1985.
 
